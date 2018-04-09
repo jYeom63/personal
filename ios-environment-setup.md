@@ -15,3 +15,10 @@
     - For each step, do Syntax Check (Built in XCode), go through regression test lists so that all the functions work as intended.
 - Check all the dependet Libraries and their versions.
 - When codes are updated accordingly, merge it to the release branch
+
+###日本語
+- この[Github repository](https://github.com/oz-sysb/ikra)のやり方に従う
+    - バージョンのアプデートはする前提
+    - それぞれのバージョンによって、合わせる必要あり
+- DeployGateにコードと環境を上げる
+(翻訳中） 
