@@ -16,9 +16,9 @@
 - Check all the dependet Libraries and their versions.
 - When codes are updated accordingly, merge it to the release branch
 
-###日本語
-- この[Github repository](https://github.com/oz-sysb/ikra)のやり方に従う
-    - バージョンのアプデートはする前提
-    - それぞれのバージョンによって、合わせる必要あり
-- DeployGateにコードと環境を上げる
+##日本語
+- この[Github repository](https://github.com/oz-sysb/ikra)のやり方に従う
+    - バージョンのアプデートは今後する前提
+    - それぞれのバージョンによって、合わせる必要あり
+- DeployGateにコードと環境を上げる
 (翻訳中） 
