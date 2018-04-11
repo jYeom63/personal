@@ -1,4 +1,8 @@
-> Refer to: https://www.comparitech.com/blog/vpn-privacy/how-to-make-your-own-free-vpn-using-amazon-web-services/
+Refer to:    
+- https://www.comparitech.com/blog/vpn-privacy/how-to-make-your-own-free-vpn-using-amazon-web-services/
+- https://medium.com/@codedraken/how-to-setup-a-proxy-server-on-linux-free-76f3c465ee5e
+
+---
 
 1. Create Server to be a VPN in VPC(i2c)
     - security group inbound rules remain the same (for now)
