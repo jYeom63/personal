@@ -1,4 +1,4 @@
-##iOS 環境の作り方・CheckList
+## iOS 環境の作り方・CheckList
 
 - Follow instructions on [Github repository](https://github.com/oz-sysb/ikra)
     - Keep in mind that versions are to be updated. 
