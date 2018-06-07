@@ -14,3 +14,11 @@
 ```
 #### Charge Type
 (追加予定) 
+
+#### 20180607
+- SQL作業の時は、ペア作業しましょう
+> - Card is issued multiple times, and user cannot log in to the right card account. The old card account must be released.
+> - https://github.com/oz-sysb/wasabi/issues/1609
+
+#### DB transaction
+- use `begin`, `commit`
