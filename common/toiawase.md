@@ -13,8 +13,18 @@
 'removed';            // 削除済み
 ```
 #### Charge Type
-(追加予定) 
-
+```
+    const STATUS_ACCEPTED_RECEPTION = 'accepted_reception'; // 交換受け付けが完了し、承認リクエストもしくはユーザー認証待ち状態
+    const STATUS_WAITING_APPLY      = 'waiting_apply'; // 交換受け付けがと、ユーザー認証が完了し、承認リクエスト待ち状態
+    
+    const STATUS_UNPROCESSED_FIRST_CHARGE = 'unprocessed_first_charge'; // 初回チャージ申請を受けてアクティベート待ち状態
+    const STATUS_READY                    = 'ready'; // チャージ準備OK(バッチがカードに入金すると判断するステータス)
+    const STATUS_IS_MAKING_PAYMENT_FILE   = 'is_making_payment_file'; // セディナに送るようのファイルを作っている状態
+    const STATUS_MADE_PAYMENT_FILE        = 'made_payment_file'; // セディナに送るようのファイルが完成しチャージしようとしている状態
+    const STATUS_REQUESTED_CHARGE         = 'requested_charge'; // セディナにチャージをお願いしている状態
+    const STATUS_APPLIED_CHARGE           = 'applied_charge'; // チャージ完了状態
+    const STATUS_CANCELLED_CHARGE         = 'cancelled_charge'; // 何らかの理由でチャージがキャンセルされた
+```
 #### 20180607
 - SQL作業の時は、ペア作業しましょう
 > - Card is issued multiple times, and user cannot log in to the right card account. The old card account must be released.
