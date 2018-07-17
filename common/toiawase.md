@@ -32,3 +32,17 @@
 
 #### DB transaction
 - use `begin`, `commit`
+
+#### scarecrow
+- mg.hapitas.jp
+
+#### snoot
+- http://snoop.hapitas.jp
+
+#### redash
+- http://redash.hapitas.jp
+
+#### 参考用
+- https://github.com/oz-sysb/wasabi/issues/1710 : db transaction example(begin, select, delete, exit)
+- https://github.com/oz-sysb/wasabi/issues/1700 : 本人認証がうまく行かなかった。本人認証のURLが有効ではなくなっている。URLの再登録必要。繋がってないポレットIDでまた再インストールされている
+- https://github.com/oz-sysb/wasabi/issues/1665 : ドットマネーのチャージ完了のリンク作り
