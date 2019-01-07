@@ -46,3 +46,10 @@
 - https://github.com/oz-sysb/wasabi/issues/1710 : db transaction example(begin, select, delete, exit)
 - https://github.com/oz-sysb/wasabi/issues/1700 : 本人認証がうまく行かなかった。本人認証のURLが有効ではなくなっている。URLの再登録必要。繋がってないポレットIDでまた再インストールされている
 - https://github.com/oz-sysb/wasabi/issues/1665 : ドットマネーのチャージ完了のリンク作り
+
+#### カードが二枚発行されているか確認する
+```
+[ec2-user@ip-172-29-16-194 ~]$ cat /var/hulft/app/receive_numbered_cedyna_id/complete/201812* | grep 37481
+"D","409336379017138468","0002846360033918","37481","0001","20181219","20181220","20"
+"D","409336505766691936","0002625390866343","37481","0001","20181220","20181221","20"
+```
